@@ -1840,3 +1840,44 @@ body.modal{
 .custom-davide-logo:hover {
 	filter: invert(51%) sepia(82%) saturate(5920%) hue-rotate(170deg) brightness(92%) contrast(83%);
 }
+
+.custom_skill{
+	background-color: #f6f6f6;
+}
+
+.custom-load-bar{
+	height: 13px;
+	background-color: rgba(22, 135, 167, 0.7);
+	border-radius: 70px;
+	margin-bottom: 10px;
+}
+
+.level4{
+	width: 100%;
+	background-color: #3CAEA3;
+}
+
+.level3{
+	width: 75%;	
+	background-color: #20639B;
+}
+
+.level2{
+	width: 50%;
+	background-color: #F6D55C;
+}
+
+.level1{
+	width: 25%;
+	background-color: #ED553B;
+}
+
+.custom-skill-section ul li{
+	width: 50% !important;
+}
+.custom-skill-section-total ul li{
+	width: 100% !important;
+}
+.custom-skill-section-total ul li span{
+	font-weight: 1000;
+}
