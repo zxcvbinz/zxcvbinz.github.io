@@ -1875,6 +1875,12 @@ body.modal{
 .custom-skill-section ul li{
 	width: 50% !important;
 }
+@media (max-width: 768px) {
+	.custom-skill-section ul li{
+		width: 100% !important;
+	}
+}	
+
 .custom-skill-section-total ul li{
 	width: 100% !important;
 }
