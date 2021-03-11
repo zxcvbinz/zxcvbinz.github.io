@@ -14,7 +14,6 @@ body.dark .arlo_tm_topbar.animate{
 body.dark .arlo_tm_topbar.animate .logo .dark{display: none;}
 body.dark .arlo_tm_topbar.animate .logo .light{display: block;}
 body.dark .arlo_tm_topbar.animate .menu ul li a{color: #fff;}
-body.dark .arlo_tm_about .left .about_image_wrap .border .inner{border-color: rgba(255,255,255,.2);}
 body.dark .arlo_tm_about ul li label{color: #fff;}
 body.dark .arlo_tm_about .about_short_contact_wrap ul li a{color: #fff;}
 body.dark .arlo_tm_services{background-color: #111;}
@@ -23,8 +22,6 @@ body.dark .arlo_tm_services .service_inner ul li .inner{
 	box-shadow: 0px 0px 20px rgb(255 255 255 / 9%);
 }
 body.dark .arlo_tm_services .service_inner ul li .inner:hover{box-shadow: 0px 0px 20px rgb(255 255 255 / 20%);}
-body.dark .arlo_tm_services .lets_work a{color: #fff;}
-body.dark .arlo_tm_services .lets_work a:before{background: rgba(255,255,255,.2);}
 body.dark .arlo_tm_portfolio .portfolio_filter ul li a{color: #fff;}
 body.dark .arlo_tm_news{background-color: #111;}
 body.dark .arlo_tm_news .news_list ul li .details .title a{color: #fff;}

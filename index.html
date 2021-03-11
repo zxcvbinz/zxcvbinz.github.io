@@ -90,6 +90,7 @@
 						<li><a href="#portfolio">Portfolio</a></li>
 						<!--<li><a href="#news">News</a></li>-->
 						<!--<li><a href="#contact">Contact</a></li>-->
+						<li><a id="change-color change-mobile" onclick="CustomDarkMode('Mobile')">DarkMode</a></li>
 					</ul>
 				</div>
 			</div>
@@ -114,7 +115,14 @@
 						<li><a href="#portfolio">Portfolio</a></li>
 						<!--<li><a href="#news">News</a></li>-->
 						<!--<li><a href="#contact">Contact</a></li>-->
+						<li><a>|</a></li>
+						<li><a id="change-color">DarkMode</a></li>
+						<label class="switch">
+							<input type="checkbox" onclick="CustomDarkMode('Web')">
+							<span class="slider round"></span>
+						  </label>
 					</ul>
+
 				</div>
 			</div>
 		</div>
@@ -702,6 +710,7 @@
 <!-- / WRAPPER ALL -->
 	
 <!-- SCRIPTS -->
+<script src="js/custom.js"></script>
 <script src="js/jquery.js"></script>
 <!--[if lt IE 10]> <script type="text/javascript" src="js/ie8.js"></script> <![endif]-->	
 <script src="js/plugins.js"></script>
