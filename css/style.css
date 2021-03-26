@@ -1513,16 +1513,16 @@ body.modal{
   transition: width .3s ease-in-out, height .3s ease-in-out, margin .3s ease-in-out, opacity .3s ease-in-out;
 }
 .cursor-inner.cursor-hover {
-  margin-left: -40px;
-  margin-top: -40px;
-  width: 80px;
-  height: 80px;
+  margin-left: -50px;
+  margin-top: -50px;
+  width: 100px;
+  height: 100px;
   background-color: #e65f78;
   opacity: .3;
 }
 .cursor-outer {
-  margin-left: -15px;
-  margin-top: -15px;
+  margin-left: -52.5px;
+  margin-top: -52.5px;
   width: 30px;
   height: 30px;
   border: 2px solid #e65f78;
@@ -1530,11 +1530,18 @@ body.modal{
   box-sizing: border-box;
   z-index: 100;
   opacity: .5;
-  -webkit-transition: all .08s ease-out;
-  transition: all .08s ease-out;
+  -webkit-transition: all .05s ease-out;
+  transition: all .05s ease-out;
+  padding: 50px;
 }
 .cursor-outer.cursor-hover{
-  opacity: 0;
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+	width: 6px;
+	height: 6px;
+	padding: 0;
+	margin-left: 0;
+	margin-top: 0;
 }
 .arlo_tm_all_wrap[data-magic-cursor="hide"] .mouse-cursor{
 	display: none;
