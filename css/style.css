@@ -592,7 +592,7 @@ h6 { font-size: 16px; }
 	bottom: -25px !important;
 	left: 25px !important;
 	right: -25px !important;
-	border: 10px solid #1687a7;
+	border: 10px solid #00C9C8;
 }
 .arlo_tm_about .left .about_image_wrap img{
 	opacity: 0;
@@ -1863,17 +1863,17 @@ body.modal{
 
 .level4{
 	width: 100%;
-	background-color: #3CAEA3;
+	background-color: #2A272A;
 }
 
 .level3{
 	width: 75%;	
-	background-color: #20639B;
+	background-color: #677381;
 }
 
 .level2{
 	width: 50%;
-	background-color: #F6D55C;
+	background-color: #82A0AA;
 }
 
 .level1{

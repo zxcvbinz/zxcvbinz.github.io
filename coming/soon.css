@@ -1,0 +1,25 @@
+body{
+	background-color: black;
+}
+
+#Layer_1{
+	max-width:300px;
+	min-width:50px;
+	margin:auto;
+	position:absolute;
+	top:0; bottom:0; left:0; right:0;
+}
+  
+#footer{
+	margin:auto;
+	position:absolute;
+	bottom:0;left:0;right:0;
+	width:90%;
+	padding-bottom:50px;
+	text-align:center;
+	font-family:"Lato";
+	font-weight:"regular";
+	font-size:20;
+	overflow-x: hidden;
+	color: #00C9C8;
+}
