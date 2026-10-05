@@ -1,514 +1,62 @@
-<!DOCTYPE html>
-<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
-
+<!doctype html>
+<html lang="it">
 <head>
-
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-
-<meta name="description" content="Davide Lanotte Official site">
-<meta name="author" content="zxcvbinz">
-
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-<title>Davide Lanotte | Home</title>
-
-<!-- STYLES -->
-<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Montserrat:200i,300,300i,400,400i,500,500i,600,700,700i,800&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-
-<link rel="stylesheet" type="text/css" href="css/plugins.css" />
-<link rel="stylesheet" type="text/css" href="css/colors.css" />
-<link rel="stylesheet" type="text/css" href="css/darkMode.css" />
-<link rel="stylesheet" type="text/css" href="css/style.css" />
-<!--[if lt IE 9]> <script type="text/javascript" src="js/modernizr.custom.js"></script> <![endif]-->
-<!-- /STYLES -->
-
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Davide Lanotte — sviluppatore a Roma</title>
+<meta name="description" content="Sviluppatore a Roma: siti, app, gestionali, bot e automazioni. Faccio fare ai computer il lavoro che oggi fai a mano.">
+<meta property="og:title" content="Davide Lanotte — sviluppatore">
+<meta property="og:description" content="Siti, app, gestionali, bot e automazioni. Raccontami il problema, anche se non sai come si chiama.">
+<meta property="og:image" content="assets/davide.jpg">
+<meta name="theme-color" content="#07080A">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300..700&family=Geist:wght@300;400;500&family=Geist+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
 </head>
+<body>
+<div id="dz-scroll" class="dz scroller">
+<div class="spacer">
+<div class="sticky">
 
-<body> <!-- If you want DARK MODE just add class 'dark' to body. For Example: <body class="dark"> -->
-	
-	<!-- PRELOADER -->
-	<div class="arlo_tm_preloader">
-		<div class="spinner_wrap">
-			<div class="spinner"></div>
-		</div>
-	</div>
-	<!-- /PRELOADER -->
+  <div id="stage" class="stage">
+    <svg id="scene-svg" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+      <path class="w-g" id="p-g"></path>
+      <path class="w-l" id="p-l"></path>
+      <path class="w-n1" id="p-n1"></path>
+      <path class="w-a1" id="p-a1"></path>
+      <path class="w-p" id="p-p"></path>
+      <path class="w-n0" id="p-n0"></path>
+      <path class="w-a0" id="p-a0"></path>
+    </svg>
+    <div id="pins"></div>
+  </div>
 
-	
-<!-- WRAPPER ALL -->
-<div class="arlo_tm_all_wrap" data-magic-cursor data-color="crimson">
-	
-	<!-- "" is default option -->
-	
-	<!-- MAGIC CURSOR VALUES: "", hide -->
-	<!-- COLOR VALUES: blue, green, brown, pink, orange, black, white, purple, sky, cadetBlue, crimson, olive, red -->
-	
-	<!-- MODALBOX NEWS -->
-	<div class="arlo_tm_modalbox_news">
-		<div class="box_inner">
-			<div class="close">
-				<a href="#"><img class="svg" src="img/svg/cancel.svg" alt="" /></a>
-			</div>
-			<div class="description_wrap scrollable">
-			</div>
-		</div>
-	</div>
-	<!-- /MODALBOX NEWS -->
-	
-	<!-- MOBILE MENU -->
-	<div class="arlo_tm_mobile_menu">
-		<div class="mobile_menu_inner">
-			<div class="container">
-				<div class="mobile_in">
-					<div class="logo">
-						<!--<a href="#"><img src="img/logo/mobile/dark.png" alt="" /></a>-->
-					</div>
-					<div class="my_trigger">
-						<div class="hamburger hamburger--collapse-r">
-							<div class="hamburger-box">
-								<div class="hamburger-inner"></div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="dropdown">
-			<div class="container">
-				<div class="dropdown_inner">
-					<ul class="anchor_nav">
-						<li><a href="#home">Home</a></li>
-						<li><a href="#about">About</a></li>
-						<li><a href="#knowledge">Knowledge</a></li>
-						<li><a href="#career">Career</a></li>
-						<!-- <li><a href="#portfolio">Portfolio</a></li> -->
-						<!--<li><a href="#news">News</a></li>-->
-						<!--<li><a href="#contact">Contact</a></li>-->
-						
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- /MOBILE MENU -->
-	
-	<!-- TOPBAR -->
-	<div class="arlo_tm_topbar">
-		<div class="container">
-			<div class="topbar_inner">
-				<div class="logo">
-					<!--<a href="#"><img class="light" src="img/logo/classic/light.png" alt="" /></a>
-					<a href="#"><img class="dark" src="img/logo/classic/dark.png" alt="" /></a>-->
-				</div>
-				<div class="menu">
-					<ul class="anchor_nav">
-						<li class="current"><a href="#home">Home</a></li>
-						<li><a href="#about">About</a></li>
-						<li><a href="#knowledge">Knowledge</a></li>
-						<li><a href="#career">Career</a></li>
-						<!-- <li><a href="#portfolio">Portfolio</a></li> -->
-						<!--<li><a href="#news">News</a></li>-->
-						<!--<li><a href="#contact">Contact</a></li>-->
-						<li><a href="">|</a></li>
-						<li><a href="" id="change-color" style="pointer-events: none;cursor: default;">DarkMode</a></li>
-						<label class="switch">
-							<input type="checkbox" onclick="CustomDarkMode('Web')">
-							<span class="slider round"></span>
-						</label>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- /TOPBAR -->
-	
-	<!-- HERO -->
-	<div class="arlo_tm_hero" id="home">
-		<div class="glitch_wrap">
-			<div class="glitch">
-			</div>
-		</div>
-		<div class="content">
-			<div class="image_wrap">
-				<div class="main" data-img-url="img/about/1.jpg"></div>
-			</div>
-			<div class="name_holder">
-				<h3>Davide <span>Lanotte</span></h3>
-			</div>
-			<div class="text_typing">
-				<p>I'm a <span class="arlo_tm_animation_text_word"></span></p>
-			</div>
-		</div>
-		<div class="arlo_tm_arrow_wrap bounce anchor">
-			<a href="#about"><i class="xcon-angle-double-down"></i></a>
-		</div>
-	</div>
-	<!-- /HERO -->
-	
-	<!-- ABOUT -->
-	<div class="arlo_tm_about" >
-		<div class="container" id="about">
-			<div class="arlo_tm_main_title" >
-				<span>Biography</span>
-				<h3>About Me</h3>
-			</div>
-			
-			<div class="about_inner">
-				<div class="left">
-					<div class="about_image_wrap parallax" data-relative-input="true">
-						<div class="image layer" data-depth="0.1">
-							<img src="img/ratios/550x650.jpg" alt="" />
-							<div class="inner" data-img-url="img/about/1.jpg"></div>
-						</div>
-						<div class="border layer" data-depth="0.2">
-							<img src="img/ratios/550x650.jpg" alt="" />
-							<div class="inner"></div>
-						</div>
-					</div>
-				</div>
-				<div class="right">
-					<div class="about_title" >
-						<h3>I'm Davide Lanotte and <span class="arlo_tm_animation_text_word"></span></h3>
-					</div>
-					<div class="text">
-						<p>Hi! My name is <span>Davide Lanotte</span>. I am a Full-Stack Developer, and I'm very passionate and dedicated to my work. With my great passion for work I am ready to face up new challenges and opportunity.</p>
-					</div>
-					<div class="about_short_contact_wrap">
-						<ul>
-							<li>
-								<img class="svg" src="img/svg/gift.svg" alt="" />
-								<span><label>Birthday:</label> 14.02.2002</span>
-							</li>
-							<li>
-								<img class="svg" src="img/svg/calendar-4.svg" alt="" />
-								<span><label>Age:</label> 23</span>
-							</li>
-							<li>
-								<img class="svg" src="img/svg/location-1.svg" alt="" />
-								<span><label>Location:</label> <a class="href_location" href="#"> Rome, Italy</a></span>
-							</li>
-							<li>
-								<img class="svg" src="img/svg/game-controller-2.svg" alt="" />
-								<span><label>Interests:</label> Coding, Machine Learning, Robotics, Games</span>
-							</li>
-							<li>
-								<img class="svg" src="img/svg/car.svg" alt="" />
-								<span><label>Driving license:</label> AM, B </span>
-							</li>
-							<li>
-								<img class="svg" src="img/svg/study-5.svg" alt="" />
-								<span><label>Study:</label> <a class="href_location" href="#"> 42Roma Luiss</a></span>
-							</li>
-							<li>
-								<img class="svg" src="img/svg/degree-1.svg" alt="" />
-								<span><label>Degree:</label> High School</span>
-							</li>	
-							<li>
-								<img class="svg" src="img/svg/message-3.svg" alt="" />
-								<span><label>Mail:</label> <a href="mailto:info@davidelanotte.com">info&#64;davidelanotte.com</a></span>
-							</li>
-							<li>
-								<img class="svg" src="img/svg/call-2.svg" alt="" />
-								<span><label>Phone:</label> <a href="tel:+39 3285945281">+39 328 594 5281</a></span>
-							</li>
-						</ul>
-					</div>
-					<!--<div class="arlo_tm_button">
-						<a href="img/resume/resume.jpg" download><span>Download CV</span></a>
-					</div>-->
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- /ABOUT -->
-	
-	<!-- Skill -->
-	<div class="arlo_tm_section">
-		<div class="arlo_tm_services custom_skill">
-			<div class="container"  id="knowledge">
-				<div class="arlo_tm_main_title">
-					<span>Knowledge</span>
-					<h3>My programming knowledge</h3>
-				</div>
-				<div class="service_inner custom-skill-section">
-					<ul>
-						<li class="wow fadeInLeft" data-wow-duration="1.5s">
-							<div class="inner">
-								<img class="svg" src="img/svg/cpu.svg" alt="" />
-								<h3>Technologies</h3>
-								<p><strong>HTML</strong></p>
-								<div class="custom-load-bar level4"></div>
-								<p><strong>CSS</strong></p>
-								<div class="custom-load-bar level4"></div>
-								<p><strong>Django</strong></p>
-								<div class="custom-load-bar"></div>
-								<p><strong>Scripting</strong></p>
-								<div class="custom-load-bar level4"></div>
-								<p><strong>Server management</strong></p>
-								<div class="custom-load-bar level3"></div>
-								<p><strong>Git</strong></p>
-								<div class="custom-load-bar level3"></div>
-								<p><strong>Docker</strong></p>
-								<div class="custom-load-bar level3"></div>
-								<p><strong>Unity3D</strong></p>
-								<div class="custom-load-bar level3"></div>
-								<p><strong>Kubernetes</strong></p>
-								<div class="custom-load-bar level2"></div>
-								<p><strong>Electron</strong></p>
-								<div class="custom-load-bar level2"></div>
-								<p><strong>React Native</strong></p>
-								<div class="custom-load-bar level2"></div>
-							</div>
-						</li>
-						<li class="wow fadeInLeft" data-wow-duration="1.5s">
-							<div class="inner">
-								<img class="svg" src="img/svg/code_lang.svg" alt="" />
-								<h3>Languages</h3>
-								<p><strong>C Language</strong></p>
-								<div class="custom-load-bar level4"></div>
-								<p><strong>Python</strong></p>
-								<div class="custom-load-bar"></div>
-								<p><strong>SQL</strong></p>
-								<div class="custom-load-bar level4"></div>
-								<p><strong>Typescript</strong></p>
-								<div class="custom-load-bar"></div>
-								<p><strong>Javascript</strong></p>
-								<div class="custom-load-bar level4"></div>
-								<p><strong>Java</strong></p>
-								<div class="custom-load-bar level3"></div>
-								<p><strong>PHP (Without Framework)</strong></p>
-								<div class="custom-load-bar level3"></div>
-								<p><strong>Dart</strong></p>
-								<div class="custom-load-bar level2"></div>
-							</div>
-						</li>
-						<li class="wow fadeInLeft " data-wow-duration="1.5s">
-							<div class="inner">
-								<img class="svg" src="img/svg/creativity.svg" alt="" />
-								<h3>Quality</h3>
-								<p><strong>Problem Solving</strong></p>
-								<div class="custom-load-bar level4"></div>
-								<p><strong>Team Working</strong></p>
-								<div class="custom-load-bar level4"></div>
-								<p><strong>Leadership</strong></p>
-								<div class="custom-load-bar level4"></div>
-							</div>
-						</li>
-						<li class="wow fadeInLeft " data-wow-duration="1.5s">
-							<div class="inner">
-								<img class="svg" src="img/svg/telegram.svg" alt="" />
-								<h3>Other Skill</h3>
-								<p><strong>Analytical Mind</strong></p>
-								<div class="custom-load-bar level4"></div>
-								<p><strong>Creativity</strong></p>
-								<div class="custom-load-bar level4"></div>
-								<p><strong>Design</strong></p>
-								<div class="custom-load-bar level3"></div>
-							</div>
-						</li>
-						<li class="wow fadeInLeft " data-wow-duration="1.5s">
-							<div class="inner">
-								<img class="svg" src="img/svg/language.svg" alt="" />
-								<h3>Languages</h3>
-								<p><strong>Italian</strong></p>
-								<div class="custom-load-bar level4"></div>
-								<p><strong>English</strong></p>
-								<div class="custom-load-bar level2"></div>
-							</div>
-						</li>
-						<li class="wow fadeInLeft " data-wow-duration="1.5s">
-							<div class="inner">
-								<img class="svg" src="img/svg/linux.svg" alt="" />
-								<h3>Operating System</h3>
-								<p><strong>MacOS</strong></p>
-								<div class="custom-load-bar level4"></div>
-								<p><strong>Windows</strong></p>
-								<div class="custom-load-bar level4"></div>
-								<p><strong>Linux (Debian, Ubuntu, Alpine)</strong></p>
-								<div class="custom-load-bar level4"></div>
-							</div>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- /Skill -->
+  <div class="vignette"></div>
+  <svg class="grain" aria-hidden="true"><filter id="dz-grain"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"></feTurbulence></filter><rect width="100%" height="100%" filter="url(#dz-grain)"></rect></svg>
 
-	<!-- COUNTER -->
-	<div class="arlo_tm_section">
-		<div class="arlo_tm_counter_section">
-			<div class="container">
-				<div class="counter_inner">
-					<ul class="wow fadeInLeft" data-wow-duration="1.5s">
-						<li>
-							<div class="list_inner">
-								<h3 class="arlo_tm_counter" data-from="0" data-to="43342" data-speed="2000">0</h3>
-								<span>Lines of code</span>
-							</div>
-						</li>
-						<li>
-							<div class="list_inner">
-								<h3 class="arlo_tm_counter" data-from="0" data-to="17924" data-speed="2000">0</h3>
-								<span>Test Started</span>
-							</div>
-						</li>
-						<li>
-							<div class="list_inner">
-								<h3 class="arlo_tm_counter" data-from="0" data-to="2450" data-speed="2000">0</h3>
-								<span>Database Created</span>
-							</div>
-						</li>
-						<li>
-							<div class="list_inner">
-								<h3 class="arlo_tm_counter" data-from="0" data-to="233" data-speed="2000">0</h3>
-								<span>Drinked Monster</span>
-							</div>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- /COUNTER -->
+  <main id="scenes"></main>
 
-	<!-- SERVICES -->
-	<div class="arlo_tm_section">
-		<div class="arlo_tm_services">
-			<div class="container"  id="career">
-				<div class="arlo_tm_main_title">
-					<span>Career</span>
-					<h3>Jobs career</h3>
-				</div>
-				<div class="service_inner">
-					<ul>
-						<li class="wow fadeInLeft" data-wow-duration="1.5s">
-							<div class="inner">
-								<img class="svg" src="img/svg/linux.svg" alt="" />
-								<img class="svg" src="img/svg/sites.svg" alt="" />
-								<h3>Full-Stack Developer</h3>
-								<p>Integrapp s.r.l, Rome</p>
-								<p><strong>January 2022 - Present</strong></p>
-								<p>Next.js, React, Django, Flask</p>
-							</div>
-						</li>
-						<li class="wow fadeInLeft" data-wow-duration="1.5s">
-							<div class="inner">
-								<img class="svg" src="img/svg/linux.svg" alt="" />
-								<img class="svg" src="img/svg/sites.svg" alt="" />
-								<h3>Software Developer</h3>
-								<p>Integrapp s.r.l, Rome</p>
-								<p><strong>October 2021 - Present</strong></p>
-								<p>I work with Python :)</p>
-							</div>
-						</li>
-						<li class="wow fadeInLeft" data-wow-duration="1.5s">
-							<div class="inner">
-								<img class="svg" src="img/svg/Mobile-Phone.svg" alt="" />
-								<img class="svg" src="img/svg/react.svg" alt="" />
-								<h3>React Native Mobile Developer</h3>
-								<p>Livebox s.r.l, Rome</p>
-								<p><strong>October 2020 - October 2021</strong></p>
-								<p>I worked with React-Native Mobile Developer at the "vMeet" project.</p>
-							</div>
-						</li>
-						<li class="wow fadeInLeft" data-wow-duration="1.5s">
-							<div class="inner">
-								<img class="svg" src="img/svg/wordpress.svg" alt="" />
-								<img class="svg" src="img/svg/sites.svg" alt="" />
-								<h3>Wordpress Site Builder</h3>
-								<p>S.t.g. Color, Margherita di Savoia</p>
-								<p><strong>August 2020</strong></p>
-								<p>Creation of official site for "S.t.g. Color" with wordpress and WP Bakery SiteBuilder</p>
-							</div>
-						</li>
-						<li class="wow fadeInLeft" data-wow-duration="1.5s">
-							<div class="inner">
-								<img class="svg" src="img/svg/wordpress.svg" alt="" />
-								<img class="svg" src="img/svg/sites.svg" alt="" />
-								<h3>Wordpress Site Builder</h3>
-								<p>Livebox s.r.l, Rome</p>
-								<p><strong>January 2020</strong></p>
-								<p>Creation of official site for "Livebox s.r.l." with wordpress and WP Bakery SiteBuilder</p>
-							</div>
-						</li>
-						<li class="wow fadeInLeft" data-wow-duration="1.5s">
-							<div class="inner">
-								<img class="svg" src="img/svg/Mobile-Phone.svg" alt="" />
-								<img class="svg" src="img/svg/xamarin.svg" alt="" />
-								<h3>Xamarin Mobile Developer</h3>
-								<p>Livebox s.r.l, Rome</p>
-								<p><strong>July 2019</strong></p>
-								<p>Internship at "Livebox s.r.l." as Xamarin Mobile Developer with mvvmcross framework.</p>
-							</div>
-						</li>
-						<li class="wow fadeInLeft" data-wow-duration="1.5s">
-							<div class="inner">
-								<img class="svg" src="img/svg/Mobile-Phone.svg" alt="" />
-								<img class="svg" src="img/svg/AugReality.svg" alt="" />
-								<h3>AR Mobile Developer</h3>
-								<p>The Edge Company, Rimini</p>
-								<p><strong>October 2018</strong></p>
-								<p>Internship at "The Edge Company" as Augmented Reality Mobile Developer with Vuforia Augmented Engine and unity3D.</p>
-							</div>
-						</li>
-					</ul>
-					<div class="lets_work wow fadeInLeft" data-wow-duration="1.5s">
-						<p>Are you interested in working with me? <a href="#about"> Contact me now</a></p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- /SERVICES -->
-	
-	<!-- COPYRIGHT -->
-	<div class="arlo_tm_section">
-		<div class="arlo_tm_copyright">
-			<div class="container">
-				<div class="inner">
-					<div class="copy wow fadeInLeft" data-wow-duration="1.5s">
-						<p>&copy; Copyright 2022. All rights are reserved.</p>
-						<div class="arlo_tm_services" style="padding: 0 !important;background-color: black;">
-							<div class="lets_work wow fadeInLeft" data-wow-duration="1.5s">
-								<p><a href="coming/soon.html">stay tuned</a></p>
-							</div>
-						</div>
-					</div>
-					<div class="social wow fadeInLeft" data-wow-duration="1.5s" data-wow-delay=".2s">
-						<ul>
-							<li><a href="https://www.linkedin.com/in/davide-lanotte/"><img class="svg custom-davide-logo" src="img/svg/social/linkedin.svg" alt="" /></a></li>
-							<li><a href="https://github.com/zxcvbinz"><img class="svg custom-davide-logo" src="img/svg/social/github.svg" alt="" /></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- /COPYRIGHT -->
-	
-	<!-- CURSOR -->
-	<div class="mouse-cursor cursor-outer"></div>
-	<div class="mouse-cursor cursor-inner"></div>
-	<!-- /CURSOR -->
-	
+  <header id="hud-top" class="hud-top">
+    <button type="button" id="to-top" class="logo">davide<span>.zip</span></button>
+    <button type="button" id="to-end" class="cta ghost small">Scrivimi</button>
+  </header>
+
+  <footer id="hud-bottom" class="hud-bottom">
+    <span class="count"><span id="sc" class="acc">01</span> / 10</span>
+    <div class="track"><div id="prog" class="fill"></div></div>
+  </footer>
+
+  <div id="hint" class="hint bob">Scorri ↓</div>
+
+  <div id="splash" class="splash" role="button" tabindex="0" aria-label="Avvio: estrazione di davide.zip. Clic per saltare"></div>
+
 </div>
-<!-- / WRAPPER ALL -->
-	
-<!-- SCRIPTS -->
-<script src="js/custom.js"></script>
-<script src="js/jquery.js"></script>
-<!--[if lt IE 10]> <script type="text/javascript" src="js/ie8.js"></script> <![endif]-->	
-<script src="js/plugins.js"></script>
-<script src="js/init.js"></script>
-<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5bpEs3xlB8vhxNFErwoo3MXR64uavf6Y&callback=initMap"></script>
-<!-- /SCRIPTS -->
-
+</div>
+</div>
+<noscript><div style="padding:40px;color:#ECEAE4;font-family:sans-serif">Davide Lanotte — sviluppatore a Roma. Scrivimi: <a href="mailto:info@davidelanotte.com">info@davidelanotte.com</a></div></noscript>
+<script>window.DZ_PHOTO = 'assets/davide.jpg';</script>
+<script src="app.js"></script>
 </body>
 </html>
