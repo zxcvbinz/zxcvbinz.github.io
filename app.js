@@ -539,7 +539,7 @@ class Component extends DCLogic {
       if (s.isProcess) html += '<div class="steps">' + v.steps.map(function (st) { return '<div><span class="n">' + st.n + '</span><span class="t">' + esc(st.t) + '</span><span class="d">' + esc(st.d) + '</span></div>'; }).join('') + '</div>';
       if (s.isEnd) html += '<div class="me"><div class="avatar">' + (photoOK ? '<img src="' + esc(PHOTO_SRC) + '" alt="" onerror="this.remove()">' : '') + '</div><div style="display:flex;flex-direction:column;gap:2px"><span class="name">Davide Lanotte</span><span class="role">SVILUPPATORE · ROMA</span></div></div>' +
         '<div class="row"><a class="cta" href="' + esc(v.mail) + '">Scrivimi una mail →</a></div>' +
-        '<div class="links"><a class="lnk" href="https://wearepeople.it" target="_blank" rel="noopener">We Are People ↗</a><a class="lnk" href="https://www.linkedin.com/in/davide-lanotte/" target="_blank" rel="noopener">LinkedIn ↗</a><a class="lnk" href="https://github.com/zxcvbinz" target="_blank" rel="noopener">GitHub ↗</a></div>';
+        '<div class="links"><a class="lnk" href="https://wearepeople.it" target="_blank" rel="noopener">We Are People ↗</a><a class="lnk" href="https://www.linkedin.com/in/d4vid3" target="_blank" rel="noopener">LinkedIn ↗</a><a class="lnk" href="https://github.com/zxcvbinz" target="_blank" rel="noopener">GitHub ↗</a></div>';
       el.innerHTML = html;
       scenesBox.appendChild(el); sceneEls.push(el);
       var sc = el.querySelector('.scan'); if (sc) scanEls.push(sc);
