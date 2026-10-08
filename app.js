@@ -314,7 +314,7 @@ function portrait(t) {
 var MODELS = [portrait, shoe, sheets, chat, dashboard, hub, bulb, stack, why, plane];
 
 var SCENES = [
-  { name: 'Ciao', kicker: 'Davide Lanotte · Sviluppatore · Roma', t1: 'Ciao, sono Davide.', t2: 'Scrivo il software che lavora per te.', sub: 'Siti, app, gestionali, bot e automazioni. In pratica faccio fare ai computer il lavoro che oggi fai a mano.', big: true },
+  { name: 'Ciao', kicker: 'Davide Lanotte · Sviluppatore', t1: 'Ciao, sono Davide.', t2: 'Scrivo il software che lavora per te.', sub: 'Siti, app, gestionali, bot e automazioni. In pratica faccio fare ai computer il lavoro che oggi fai a mano.', big: true },
   { name: 'Il problema', kicker: 'Il problema', t1: 'Un calzolaio ha la vetrina.', t2: 'Il mio lavoro non si vede.', sub: 'Gira dentro computer e server, anche di notte. Per questo è difficile capire quando ti serve. Ecco cinque segnali.' },
   { name: 'Dati a mano', kicker: 'Segnale 01 / 05', t1: 'Copi dati a mano da un file all’altro?', t2: 'Un’automazione lo fa in un secondo.', done: 'Fatture e chiusure di cassa lette in automatico per il controllo costi di un gruppo di ristoranti.' },
   { name: 'Stesse domande', kicker: 'Segnale 02 / 05', t1: 'Rispondi sempre alle stesse domande?', t2: 'Un bot risponde al posto tuo.', done: 'Un assistente AI che risponde ai dipendenti usando i documenti interni dell’azienda.' },
@@ -538,7 +538,7 @@ class Component extends DCLogic {
       if (s.hasDone) html += '<div class="done"><b>Già fatto</b><span>' + esc(s.done) + '</span></div>';
       if (s.isProcess) html += '<div class="steps">' + v.steps.map(function (st) { return '<div><span class="n">' + st.n + '</span><span class="t">' + esc(st.t) + '</span><span class="d">' + esc(st.d) + '</span></div>'; }).join('') + '</div>';
       if (s.isEnd) html += '<div class="me"><div class="avatar">' + (photoOK ? '<img src="' + esc(PHOTO_SRC) + '" alt="" onerror="this.remove()">' : '') + '</div><div style="display:flex;flex-direction:column;gap:2px"><span class="name">Davide Lanotte</span><span class="role">SVILUPPATORE · ROMA</span></div></div>' +
-        '<div class="row"><a class="cta" href="' + esc(v.mail) + '">Scrivimi una mail →</a><a class="cta ghost" href="https://wa.me/393285945281" target="_blank" rel="noopener">WhatsApp →</a></div>' +
+        '<div class="row"><a class="cta" href="' + esc(v.mail) + '">Scrivimi una mail →</a></div>' +
         '<div class="links"><a class="lnk" href="https://wearepeople.it" target="_blank" rel="noopener">We Are People ↗</a><a class="lnk" href="https://www.linkedin.com/in/davide-lanotte/" target="_blank" rel="noopener">LinkedIn ↗</a><a class="lnk" href="https://github.com/zxcvbinz" target="_blank" rel="noopener">GitHub ↗</a></div>';
       el.innerHTML = html;
       scenesBox.appendChild(el); sceneEls.push(el);
